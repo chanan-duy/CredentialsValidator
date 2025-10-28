@@ -28,6 +28,16 @@ public class LoginValidator : IValidator<string>
             return false;
         }
 
+        if (!ValidAlphaChars.Contains(value[0]))
+        {
+            return false;
+        }
+
+        if (ValidSpecSymbolsChars.Contains(value[^1]))
+        {
+            return false;
+        }
+
         if (!value.All(c => ValidChars.Contains(c)))
         {
             return false;
