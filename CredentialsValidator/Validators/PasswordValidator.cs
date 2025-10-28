@@ -6,9 +6,4 @@ public class PasswordValidator : IValidator<string>
     {
         throw new NotImplementedException();
     }
-
-    public bool IsValidWithProblems(string value, List<string> outProblems)
-    {
-        throw new NotImplementedException();
-    }
 }
