@@ -1,3 +1,3 @@
 # CredentialsValidator
 
-<img width="1391" height="695" alt="25-10-28_20-30-18" src="https://github.com/user-attachments/assets/98adae06-58e9-4d5b-83df-bf0efe9c61ae" />
+<img width="1312" height="931" alt="image" src="https://github.com/user-attachments/assets/02c89760-4be6-431b-9828-074026d8729e" />
