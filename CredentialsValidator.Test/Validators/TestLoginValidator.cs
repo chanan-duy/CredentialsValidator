@@ -61,6 +61,18 @@ public static class TestLoginValidator
         {
             Assert.False(_loginValidator.IsValid("abcdefgh-"));
         }
+
+        [Fact]
+        public void OnlyNumbersTest()
+        {
+            Assert.False(_loginValidator.IsValid(new string('4', 10)));
+        }
+
+        [Fact]
+        public void OnlyDashesTest()
+        {
+            Assert.False(_loginValidator.IsValid(new string('-', 10)));
+        }
     }
 
     public class PositiveTests
